@@ -1,0 +1,67 @@
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-width: fit-content;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.main_box{
+    width: 700px;
+    padding: 30px;
+    margin: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 1 rgba(0,0,0,0.1) ;
+}
+/*
+first section
+*/
+.float-wrap{
+    overflow: hidden;
+}
+.subject-text{
+    float: left;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.year-text{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+.desc-text{
+    padding-left: 30px;
+    font-size: 16px;
+    margin: 0;
+}
+
+/*
+
+*/
+
+
+.title_box{
+    text-align: center;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
